@@ -10,7 +10,7 @@
     <header>
       <div class="container">
         <div class="header__row">
-          <div class="header__log">
+          <div class="header__logo">
             <img src="img/logo-social.png" alt="" />
           </div>
           <div class="header__login">Вхід</div>
@@ -18,8 +18,54 @@
       </div>
     </header>
     <section class="main">
-      <div class="container"></div>
+      <div class="container">
+        <div class="main__row">
+          <div class="main__search input">
+            <div class="main__searh-icon">
+              <img src="img/search.svg" alt="" />
+            </div>
+            <div class="main__search-filter">
+              <input type="text" placeholder="search by title" />
+            </div>
+          </div>
+          <div class="main__select-status">
+            <select name="status">
+              <option value="value1" selected>all</option>
+              <option value="value2">open</option>
+              <option value="value3">done</option>
+            </select>
+          </div>
+          <div class="main__select-termin">
+            <select name="termin">
+              <option value="value1" selected>all</option>
+              <option value="value2">high</option>
+              <option value="value3">normal</option>
+              <option value="value3">low</option>
+            </select>
+          </div>
+          <button class="main__search-button">search</button>
+        </div>
+      </div>
     </section>
+    <div class="modal">
+      <div class="modal__close">
+        <img src="img/close.svg" alt="" />
+      </div>
+      <div class="modal__login">
+        <div class="modal__column">
+          <div class="modal__mail input">
+            <input type="text" placeholder="mail" />
+          </div>
+          <div class="modal__password input">
+            <input type="text" placeholder="password" />
+          </div>
+          <div class="modal__submit">
+            <button>submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="visit"></section>
     <script src="js/index.js"></script>
   </body>
 </html>
