@@ -1,0 +1,14 @@
+@import url("nullstyle.css");
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.header__row {
+  display: flex;
+}
+.header__log {
+}
+.header__login {
+}
