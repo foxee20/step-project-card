@@ -33,6 +33,7 @@ body {
 }
 .header__login {
   margin-right: 10px;
+  background-color: aqua;
 }
 
 .main__row {
@@ -47,8 +48,7 @@ body {
   flex-direction: row;
   align-items: center;
 }
-.main__searh-icon {
-}
+
 .main__search-filter {
   margin-left: 10px;
 }
@@ -104,10 +104,6 @@ body {
   padding: 5px;
   background-color: bisque;
   max-width: 60px;
-}
-
-.modal__submit button {
-  background-color: bisque;
 }
 
 .modal__close {
